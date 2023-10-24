@@ -1,15 +1,29 @@
-.round-button {
+/* Style for the button */
+
+button {
+  background-color: #FF6A6A;
   border: none;
-  border-radius: 50%;
-  background-color: #336699;
   color: white;
-  width: 150px;
-  height: 150px;
-  font-size: 1.2em;
-  margin-right: 20px;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
+  border-radius: 8px;
 }
 
-.button-container {
-  margin-top: 30px;
+/* Style for the background */
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1527689368867-379b76a1221a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEwMjk0fQ");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Optional style for a hover effect on the button */
+
+button:hover {
+  background-color: #E84848;
 }
