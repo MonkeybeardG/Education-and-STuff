@@ -41,16 +41,29 @@ button:hover {
 
 
 .button-with-image {
-  display: flex;
-  align-items: center; /* centers the image and text vertically */
-  justify-content: center; /* centers the image and text horizontally */
-  padding: 10px 20px; /* adjust padding as needed */
-  background-color: #007bff; /* button background color */
-  color: #fff; /* button text color */
-  border: none; /* removes default button border */
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
 }
 
 .button-with-image img {
-  width: 20px; /* adjust image width as needed */
-  margin-right: 10px; /* adds space between image and text */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 80%;
+  height: auto;
+}
+
+.button-with-image span {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  text-transform: uppercase;
 }
