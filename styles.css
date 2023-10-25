@@ -38,8 +38,6 @@ button:hover {
   background-color: #E84848;
 }
 
-
-
 .button-with-image {
   position: relative;
   display: inline-block;
@@ -52,7 +50,7 @@ button:hover {
 
 .button-with-image img {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
