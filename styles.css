@@ -37,3 +37,20 @@ title {
 button:hover {
   background-color: #E84848;
 }
+
+
+
+.button-with-image {
+  display: flex;
+  align-items: center; /* centers the image and text vertically */
+  justify-content: center; /* centers the image and text horizontally */
+  padding: 10px 20px; /* adjust padding as needed */
+  background-color: #007bff; /* button background color */
+  color: #fff; /* button text color */
+  border: none; /* removes default button border */
+}
+
+.button-with-image img {
+  width: 20px; /* adjust image width as needed */
+  margin-right: 10px; /* adds space between image and text */
+}
