@@ -28,6 +28,10 @@ body {
   background-size: cover;
 }
 
+title {
+  color: white;
+}
+
 /* Optional style for a hover effect on the button */
 
 button:hover {
