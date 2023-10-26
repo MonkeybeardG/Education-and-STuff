@@ -40,12 +40,13 @@ body {
   align-items: center;
   text-decoration: none;
   color: #fff;
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
 .button-with-image img {
-  width: 50px;
+  width: 70px;
   margin-right: 15px;
+  transform: scale(2);
 }
 
 .button-with-image span {
