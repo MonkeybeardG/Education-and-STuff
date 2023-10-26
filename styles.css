@@ -32,12 +32,6 @@ title {
   color: white;
 }
 
-/* Optional style for a hover effect on the button */
-
-button:hover {
-  background-color: #E84848;
-}
-
 
 .game-button {
   display: inline-block;
