@@ -38,30 +38,23 @@ button:hover {
   background-color: #E84848;
 }
 
-.button-with-image {
-  position: relative;
+.image-button {
   display: inline-block;
-  text-align: center;
-  padding: 20px;
-  background-color: #007bff;
-  color: #fff;
+  vertical-align: middle;
+  position: relative;
+  padding: 10px;
   border: none;
+  background-color: #eee;
+  color: #333;
 }
 
-.button-with-image img {
+.image-button img {
+  vertical-align: middle;
+}
+
+.button-text {
   position: absolute;
-  top: 200%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  width: 80%;
-  height: auto;
-}
-
-.button-with-image span {
-  display: block;
-  margin-top: 20px;
-  font-size: 1.2em;
-  line-height: 1.2em;
-  text-transform: uppercase;
+  bottom: 0;
+  transform: translateX(-50%);
 }
