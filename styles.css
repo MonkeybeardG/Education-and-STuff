@@ -22,6 +22,7 @@ body {
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
+  float: right;
 }
 
 .button-with-image:hover {
@@ -37,18 +38,15 @@ body {
 .button-with-image a {
   display: flex;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   text-decoration: none;
   color: #fff;
   font-size: 1.2em;
 }
 
 .button-with-image img {
-  width: 50px;
+  width: 100px;
+  height: auto;
   margin-right: 15px;
-}
-}
-
-.button:focus {
-  outline: none;
+  transform: scale(2);
 }
