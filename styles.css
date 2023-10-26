@@ -37,7 +37,7 @@ body {
 .button-with-image a {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   text-decoration: none;
   color: #fff;
   font-size: 1.2em;
