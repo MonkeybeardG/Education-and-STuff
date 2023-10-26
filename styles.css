@@ -23,11 +23,11 @@ title {
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
   text-align: center;
   transition: all 0.3s ease-in-out;
-  transform: scale(0.4);
+  transform: scale(0.8);
 }
 
 .game-button:hover {
-  transform: scale(0.5); /* Change scaling factor here */
+  transform: scale(1.0); /* Change scaling factor here */
   box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.4);
   background-color: #ff8c00;
 }
