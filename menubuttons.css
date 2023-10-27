@@ -14,3 +14,10 @@ h1 {
   color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+body {
+  background-image: url("https://generations.krea.ai/images/1fa9d8f3-d27d-4682-acd6-c625593e512a.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
