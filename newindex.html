@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Education and Stuff 4.1</title>
+	<style>
+		body {
+			background-color: #2c3e50;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			font-size: 24px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 48px;
+			font-weight: bold;
+			margin-top: 100px;
+		}
+
+		#random-text {
+			margin-top: 50px;
+			font-size: 36px;
+		}
+
+		#date-time {
+			margin-top: 50px;
+			font-size: 24px;
+		}
+
+		.clock {
+			display: inline-block;
+			padding: 10px;
+			background-color: #3498db;
+			border-radius: 50%;
+			margin: 0 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			color: #fff;
+		}
+
+		.btn {
+			display: inline-block;
+			margin-top: 50px;
+			padding: 15px 25px;
+			background-color: #e74c3c;
+			color: #fff;
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			border-radius: 50px;
+			transition: background-color 0.2s ease, box-shadow 0.2s ease;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			text-decoration: none;
+		}
+
+		.btn:hover {
+			background-color: #c0392b;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+		}
+	</style>
+</head>
+<body>
+	<h1>Education and Stuff 4.1</h1>
+	<div id="random-text">Made by Carter</div>
+	<div id="date-time"></div>
+	<a href="gamehub.html" class="btn">Game Hubs</a>
+
+	<script>
+	function updateDateTime() {
+		const dateObj = new Date();
+		const date = dateObj.toLocaleDateString();
+		const time = dateObj.toLocaleTimeString();
+
+		document.getElementById("date-time").innerHTML = `${date} <span class="clock">${time}</span>`;
+	}
+
+	setInterval(() => {
+		const randomTexts = ["r u poggers?", "vroom vroom", "Coding is fun", "Let's learn something new", "Growing smarter every day"];
+		document.getElementById("random-text").innerHTML = randomTexts[Math.floor(Math.random() * randomTexts.length)];
+	}, 3000);
+
+	updateDateTime();
+	setInterval(updateDateTime, 1000);
+	</script>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+	<title>Education and Stuff 4.1</title>
+	<style>
+		body {
+			background-color: #2c3e50;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			font-size: 24px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 48px;
+			font-weight: bold;
+			margin-top: 100px;
+		}
+
+		#random-text {
+			margin-top: 50px;
+			font-size: 36px;
+		}
+
+		#date-time {
+			margin-top: 50px;
+			font-size: 24px;
+		}
+
+		.clock {
+			display: inline-block;
+			padding: 10px;
+			background-color: #3498db;
+			border-radius: 50%;
+			margin: 0 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			color: #fff;
+		}
+
+		.btn {
+			display: inline-block;
+			margin-top: 50px;
+			padding: 15px 25px;
+			background-color: #e74c3c;
+			color: #fff;
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			border-radius: 50px;
+			transition: background-color 0.2s ease, box-shadow 0.2s ease;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			text-decoration: none;
+		}
+
+		.btn:hover {
+			background-color: #c0392b;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+		}
+	</style>
+</head>
+<body>
+	<h1>Education and Stuff 4.1</h1>
+	<div id="random-text">Made by Carter</div>
+	<div id="date-time"></div>
+	<a href="gamehubs.html" class="btn">Game Hubs</a>
+
+	<script>
+	function updateDateTime() {
+		const dateObj = new Date();
+		const date = dateObj.toLocaleDateString();
+		const time = dateObj.toLocaleTimeString();
+
+		document.getElementById("date-time").innerHTML = `${date} <span class="clock">${time}</span>`;
+	}
+
+	setInterval(() => {
+		const randomTexts = ["r u poggers?", "vroom vroom", "Coding is fun", "Let's learn something new", "Growing smarter every day"];
+		document.getElementById("random-text").innerHTML = randomTexts[Math.floor(Math.random() * randomTexts.length)];
+	}, 3000);
+
+	updateDateTime();
+	setInterval(updateDateTime, 1000);
+	</script>
+</body>
+</html>
